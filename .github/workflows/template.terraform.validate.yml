@@ -116,7 +116,7 @@ jobs:
         working-directory: scripts/orchestrators
         shell: bash
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: ${{ always() && inputs.runLayerTest == 'true' }}
         with:
           name: Modules test results
