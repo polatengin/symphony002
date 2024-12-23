@@ -1,0 +1,11 @@
+{
+  "prefix": "iryezmhr",
+  "suffix": "384",
+  "resource_group": "rg-iryezmhr-384",
+  "keyvault": "kv-iryezmhr-384",
+  "reader_service_principal": "sp-reader-iryezmhr-384",
+  "owner_service_principal": "sp-owner-iryezmhr-384",
+  "state_storage_account": "sairyezmhr384",
+  "backupstate_storage_account": "sastatebkupiryezmhr384",
+  "state_container": "tfstate"
+}
